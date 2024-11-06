@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-image: url("pictures/background.jpg");
+    background-size: cover;
+}
+.content{
+    background-color: rgba(48, 139, 87,0.67);
+    width: fit-content;
+    margin: 10px auto;
+    padding-bottom: 5px;
+}
+header {
+    background:rgb(15, 7, 7);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #333;
+    text-align: left;
+}
+section:hover{
+    background-color: rgba(18, 160, 185, 0.219);
+    border-radius: 25px;
+    color:white;
+}
+section .kep{
+    float: right;
+    height: 130px;
+    margin: 10px 0 25px 10px
+}
+section h2 a{
+    text-decoration: none;
+    color: black;
+}
+section h2 a:hover{
+    color:red;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaplapok</title>
+    <link rel="stylesheet" href="styles_for_subpages.css">
+    <style>
+        .motherboard{
+           margin: 10px 65px 0 65px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button class="left"><a href="../index.html"><img src="../pictures/icons/back-1689836_1280.webp" alt="vissza"></a></button>
+            <button class="right"><a href="cpu.html"><img src="../pictures/icons/forward.png" alt="tovább"></a></button>
+            <h1>Az alaplap</h1>
+        </header>
+            <img class="motherboard" src="../pictures/asus_alaplap.png" alt="Alaplap, img map-pel" usemap="#workmap">
+            <p>
+                Az alaplapon található alkatrészek fölé kattintva az egérrel, az alábbira tetszett kattintani:
+            </p>
+            <map name="workmap">
+                <area  shape="rect" coords=" 11,30,87,57"  alt="PS2 csatlakozó" href="#ps2">
+                <area shape="rect" coords="37,100,65,136" href="#hdmi" alt="HDMI csatlakozó">
+                <area shape="rect" coords="17,151,81,225" href="#vga" alt="VGA-kimenet">
+                <area shape="rect" coords="35,242,76,272" href="#usb" alt="USB-kimenet">
+                <area shape="rect" coords="33,294,93,338" href="#ethernet" alt="Ehternet-kimenet">
+                <area shape="rect" coords="21,347,77,376" href="#soundcard" alt="Hangkártya">
+            </map>
+        <section id="ps2">
+            <h3 >PS2 csatlakozó</h3>
+            <p>Az alábbi csatlakozókon keresztül lehet a régebbi típusú billentyűzetet(lila csatlakozó) vagy egeret csatlakoztatni(zöld csatlakozó)</p>
+        </section>
+        <section id="hdmi">
+            <h3>HDMI csatlakozó</h3>
+            <p>
+                Modernebb eszközökön használatos grafikai bemenet.
+            </p>
+        </section>
+        <section id="vga">
+            <h3>VGA kimenet</h3>
+            <p>
+                Régebbi típusú kimenet a monitorok számára. Hátránya a HDMI-vel szemben, hogy sokkal kevesebb adat meg át rajta.
+            </p>
+        </section>
+        <section id="usb">
+            <h3>USB kimenet</h3>
+            <p>
+                USB (Universal Serial Bus) kimenetű eszközök, tárolóhelyek csatlakoztatására szolgál.
+            </p>
+        </section>
+        <section id="ethernet">
+            <h3>Ethernet kimenet</h3>
+            <p>
+                RJ45 ajzatú internetkábelek csatlakoztatására való. Legmodernebb kábeltípus a CAT5E és a CAT6.
+            </p>
+        </section>
+        <section id="soundcard">
+            <h3>Alaplapi integrált hangkártya</h3>
+            <p>
+                A nevéből eredően az alaplap integrált része. Nagyáltalánosságban 3 ajzattal készítik el a hangkártyákat. A rózsaszín ajzat a mikrofoné, a zöld a hangszóróké, vagyis a kimeneté, a kék pedig a hangbemenért felelt régebben.
+            </p>
+        </section>
+        <section>
+            <p> Folytatás a későbbiekben!</p>
+        </section>
+        <footer>
+            <p>
+                A forrása a szövegeknek, amiket a honlapon láthatóak, nagyrészük ChatGPT megfogalmazás, azonban nem teljes egészében.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
